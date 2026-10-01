@@ -1,0 +1,19 @@
+# core (needed for everything)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+# real molecular Hamiltonians
+pyscf
+openfermion
+openfermionpyscf
+# real calibration data / hardware path (calibration.py, hardware_run.py)
+qiskit>=1.0
+qiskit-ibm-runtime>=0.25
+qiskit-aer            # only for fake-backend dry runs
+# hierarchical Bayesian model (hier_model.py)
+jax
+numpyro
+# optional cross-check of the baselines against an independent implementation
+mitiq
+pytest
